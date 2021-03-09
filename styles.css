@@ -6,14 +6,22 @@ ul{
   list-style-type: square;
 }
 
+p, li{
+  text-align: left;
+}
+
 header p{
   text-align: center;
 }
 
 h1, h2, h3, h4{
   font-weight: bold;
-  color: darkslategray;
+  color:#6495ed;
   text-align: center;
+}
+
+ol{
+  text-align: left;
 }
 
 h1{
@@ -22,18 +30,47 @@ h1{
 }
 
 body{
-  background-color: darkgray;
+  background-color: white;
+  width: 960px;
 }
 
-a:link{
-color: darkslategray;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ul li a:link{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
 
 }
-a:visited{color: midnightblue;}
+
+a:visited{color: darkred);}
 a:active{color:blue;}
+a:hover{color:white;}
 
 hr{
   height: 3px;
-  background-color: white;
+  width: 75%;
+  background-color:black}
+
+.mainContent{
+  background-color: #696969;
+  border-radius: 10px;
+  align-content: center;
+  margin: auto;
+  width: 70%;
+  border: 2px solid dimgray;
+  padding: 15px;
+text-align: center;
+}
+
+.subTitle{
+  text-transform: uppercase;
+  color:#303030 ;
+  font-weight: bold;
+}
+
+.profilePic{
+  border-radius: 10%;
+  border: 2px solid black;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
 }
